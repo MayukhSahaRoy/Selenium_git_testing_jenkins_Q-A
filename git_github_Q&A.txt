@@ -1,0 +1,78 @@
+1. What is Git?
+A. Git is a powerful and popular version control system that enables
+   effective tracking of changes in source code. It is used for keeping
+   track of code changes and collaborating with others on code. It uses
+   a decentralized model where each developer has their own copy of the
+   repository and works immediately on the project. Git manages the
+   projects with repositories and can clone a project to operate locally
+   on it. With staging and committing it track changes and control. We
+   can pull the latest code of the project to the local copy, and push
+   local updates to the main projects.
+
+2. What is GitHub?
+A. GitHub is an web based platform which hosts software development
+   projects and uses Git for version management. Git is a distributed
+   version control system that helps developers to work together on same
+   software projects and keep track of changes made to their code by on
+   another. GitHub offers a user-friendly interface, which is very
+   collaborative tools, and more project management tools, GitHub will
+   enhance the potential of the Git.
+   GitHub allows developers to create and manage the code in the
+   repository in the remote location where others can aceses the code or
+   Github is an collection repositories which contains the files of the
+   project.
+
+3. Basic git commands.
+A. The basic git commands are divided in the following categories:
+   a. To create:-
+      1. Clone an existing repository: git clone
+      2. Create a new local repository: git init
+   b. To make local changes:-
+      1. Changed files in your working directory: git status
+      2. Changes to tracked files: git diff
+      3. Add all current changes to the next commit: git add
+      4. Add some changes to the next commit: git add -p
+      5. Commit all local changes in tracked files: git commit -a
+      6. Commit previously staged changes: git commit
+      7. Change the last commit: git commit -amend
+   c. To commit history:-
+      1. Show all commits, starting with newest: git log
+      2. Show changes over time for a specific file: git log -p
+      3. Who changed what and when in: git blame
+   d. Branches and tags:-
+      1. List all existing branches: git branch -av
+      2. Switch HEAD branch: git checkout
+      3. Create a new branch based on your current HEAD: git branch
+      4. Create a new tracking branch based on a remote branch: git checkout - -track
+      5. Delete a local branch: git branch -d
+      6. Mark the current commit with a tag: git tag
+   e. To update and publish:-
+      1. List all currently configured remotes: git remote -v
+      2. Show information about a remote: git remote show
+      3. Add new remote repository, named remote: git remote add
+      4. Download all changes from but don't integrate into HEAD: git fetch
+      5. Download changes and directly merge/integrate into HEAD: git pull
+      6. Publish local changes on a remote: git push
+      7. Delete a branch on the remote: git branch -dr
+      8. Publish our tags: git push -tags
+   f. To merge and reuse:-
+      1. Merge into your current HEAD: git merge
+      2. Rebase your current HEAD onto: git rebase
+      3. Abort a rebase: git rebase - -abort
+      4. Continue a rebase after resolving conflicts: git rebase - -continue
+      5. Use our configured merge tool to solve conflicts: git mergetool
+      6. Use our editor to manually solve conflicts and (after
+         resolving) mark title as resolved: git add, git rm
+   g. To undo:-
+      1. Discard all local changes in your working directory: git reset -hard HEAD
+      2. Discard local changes in a specific file: git checkout HEAD
+      3. Revert a commit: git revert
+      4. Reset our HEAD pointer to a previous commit and discard all changes
+         since then: git reset -hard
+      5. Preserve all changes as unstaged changes: git reset
+      6. Preserve uncommited local  changes: git reset – – keep
+
+4. Creation of Pull request.
+A. After pushing our code to our local repository we have to make a pull
+   request to merge our code to the real repository. To do that we go to
+   our local repo and click on the pull request.
